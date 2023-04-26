@@ -1,7 +1,9 @@
 *{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding:0px;
     margin: 0px;
+    border: 0px;
+    vertical-align: baseline;
 }
 
 header{
@@ -11,19 +13,23 @@ header{
     background-color: white;
     color:black;
     height: 64px;
+    display:block;
 }
 
 .Academy{
-    display: flex;
-    justify-content: left;
+    display:flex;
+    align-items: center;
+    margin-left: 24px;
 }
+
 nav{ 
-    display: block;
+    display: flex;
     margin-right: 24px;
     float: right;
-    align-items: center;
 }
-nav a{
+
+a{
     text-decoration: none;
     color: black;
+    padding-left: 16px;
 }
