@@ -3,33 +3,38 @@
     padding:0px;
     margin: 0px;
     border: 0px;
-    vertical-align: baseline;
 }
-
-header{
+h2{
+    padding-bottom: 16px;
+    text-align:center;
+    font-weight: bold;
+    font-size: 32px;
+}
+header .desktop{
+    display:flex;
+    align-items:center;
     position: fixed;
     z-index: 2;
     width:100%;
     background-color: white;
     color:black;
     height: 64px;
-    display:block;
 }
-
-.Academy{
-    display:flex;
-    align-items: center;
-    margin-left: 24px;
-}
-
-nav{ 
+header .logo{
+    flex-grow: 1;
     display: flex;
-    margin-right: 24px;
-    float: right;
+    align-items: center;
 }
 
-a{
+header .logo img{
+    margin-left: 16px;
+}
+a {
     text-decoration: none;
     color: black;
-    padding-left: 16px;
+
+}
+header li{
+    display: inline;
+    padding-right: 16px;
 }
