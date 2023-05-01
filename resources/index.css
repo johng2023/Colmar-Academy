@@ -50,5 +50,13 @@ header li{
     width: auto;
 }
 .content-info{
-justify-content: space-around;
+    display: block;
+    block-size: auto 200px;
+    padding:24px;
+}
+.content-info a{
+    margin: 60px;
+    color: white;
+    background-color: grey;
+    padding: 8px 100px;
 }
