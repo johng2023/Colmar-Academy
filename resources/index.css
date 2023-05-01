@@ -50,13 +50,20 @@ header li{
     width: auto;
 }
 .content-info{
-    display: block;
-    block-size: auto 200px;
     padding:24px;
 }
 .content-info a{
-    margin: 60px;
+    flex-shrink: 1;
     color: white;
     background-color: grey;
     padding: 8px 100px;
+
 }
+.content h2{
+    padding-bottom: 32px;
+}
+.content p{
+    padding-bottom: 24px;
+    align-items: center;
+}
+
