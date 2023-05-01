@@ -25,14 +25,12 @@ header .logo{
     display: flex;
     align-items: center;
 }
-
 header .logo img{
     margin-left: 16px;
 }
 a {
     text-decoration: none;
     color: black;
-
 }
 header li{
     display: inline;
@@ -52,18 +50,15 @@ header li{
 .content-info{
     padding:24px;
 }
-.content-info a{
-    flex-shrink: 1;
+.content a{
     color: white;
     background-color: grey;
     padding: 8px 100px;
-
 }
-.content h2{
+.content-info h2{
     padding-bottom: 32px;
 }
-.content p{
+.content-info p{
     padding-bottom: 24px;
-    align-items: center;
 }
 
